@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="0dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTxt_update"
+        android:hint="Update Task"
+        android:padding="12dp"
+        android:lines="4"
+        android:gravity="top"
+        android:layout_margin="16dp"
+        android:background="@drawable/custom_edit_text"
+        android:elevation="3dp" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update"
+        android:text="Update Task"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#4fa1fc"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>
